@@ -1,0 +1,207 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 80%;
+    float: right;
+}
+
+body {
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+
+/*SIDE BAR */
+
+.side_bar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.side_bar .side_bar_items .list_image {
+    width: 40px;
+    height: 40px;
+}
+
+/* .side_bar .side_bar_items .list_image {
+    width: 100%;
+} */
+/*
+=================================================
+HOME SECTION
+=================================================
+*/
+#home .image {
+    background-image: url(../img/Hero_image.png);
+    background-size: cover;
+    height: 900px;
+}
+
+#home .home_box {
+    top: 45%;
+    width: 616px;
+    height: 351px;
+    flex-shrink: 0;
+}
+
+#home .home_box h1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px;
+}
+
+#home .home_box h3 {
+    font-family: 'DM Sans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#home .home_box p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+        /* 175% */
+}
+
+#home .home_box button {
+    display: inline-flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#home .home_box button:first-child {
+    background: var(--nft, #55E6A5);
+}
+
+/*
+=================================================
+ABOUT SECTION
+=================================================
+*/
+
+#about_me h2 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+#about_me h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+#about_me .about_me_box {
+    margin-top: 130px;
+}
+
+#about_me .about_me_box .heading_img {
+    width: 100px;
+    height: auto;
+}
+
+#about_me .about_me_box .heading_img img {
+    width: 100%;
+}
+
+#about_me .about_me_box .right {
+    width: 40%;
+} 
+
+#about_me .about_me_box .left {
+    width: 55%;
+}
+
+#about_me .about_me_box .right img {
+    width: 100%;
+}
+
+#about_me .about_me_box .left p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#about_me .about_me_box .award {
+    width: 400px;
+    height: 120px;
+    background-color: #55E6A5;
+    border-radius: 5px;
+    bottom: -35px;
+}
+
+#about_me .about_me_box .award_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#about_me .about_me_box .award p {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+=================================================
+ABOUT SECTION
+=================================================
+*/
+
+#service .service_box_item .icon_box {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background: var(--nft, #55E6A5);
+}
+
+#service .service_box {
+    height: 350px;
+    /* background: #ccc; */
+}
+
+#service .service_box_item h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+#service .service_box_item .read {
+    width: 167px;
+    height: 58px;
+    border-radius: 5px;
+    border: 1px solid #55E6A5;
+    background: #000;
+}
+
+#service .service_box p {
+    font-size: 16px;
+}
